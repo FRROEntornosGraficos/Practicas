@@ -37,3 +37,19 @@ li{
 	
 	color: red;
 }
+
+.contenedorde3{
+	padding-left: 150px;
+	padding-right: 150px;
+	min-height: 300px;
+}
+
+.caja1_3{
+	float:left;
+	position: relative;
+	width: 30%;
+	padding: 20px;
+	border: 1px solid grey;
+	min-height: 300px;
+	margin-top: 20px;
+}
