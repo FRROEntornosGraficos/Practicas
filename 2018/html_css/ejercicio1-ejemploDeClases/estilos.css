@@ -18,6 +18,8 @@ li{
 
 .space{
 	height: 50px;
+	width: 100%;
+	margin-top: 20px;
 }
 
 #hero{
@@ -57,7 +59,7 @@ li{
 .contenedorde2{
 	padding-left: 250px;
 	padding-right: 250px;
-	min-height: 150px;
+	min-height: 50px;
 }
 
 .caja1_2{
@@ -65,7 +67,7 @@ li{
 	position: relative;
 	width: 49%;
 	border: 1px solid #FAFAFA;
-	min-height: 300px;
+	min-height: 50px;
 	margin-top: 20px;
 }
 
@@ -78,4 +80,9 @@ li{
 .negro{
 	color: white;
 	background-color: black;
+}
+
+.noticia{
+	text-align: left;
+	color:#222;
 }
