@@ -2,3 +2,38 @@
 body{
 	text-align: center;
 }
+
+nav{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	float: left;
+	margin-left: 30px;
+}
+
+.space{
+	height: 50px;
+}
+
+#hero{
+	background-image: url("https://via.placeholder.com/1350x250");
+	background-position: center;
+	background-size: cover;
+	padding:250px;
+}
+
+#cajanegra{
+	background-color:black;
+	color: white;
+	padding:50px;
+}
+
+#cajanegra p{
+	
+	color: red;
+}
