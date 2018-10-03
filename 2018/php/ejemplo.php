@@ -1,15 +1,12 @@
 <?php
 include "funciones.php";
 
-/*
-		jbutti@frro.utn.edu.ar
-*/
 if(!empty($_POST['nombre'])){
 
 	if(strlen($_POST['nombre']) < 10){
 		$mensaje = "El nombre es corto";
 	}else{
-
+		//Ejemplo:
 		consultasql("INSERT INTO servicios VALUES ('','".$_POST['nombre']."');");
 		//INSERT INTO servicios VALUES ('','Juan Perez');
 	}
