@@ -53,3 +53,29 @@ li{
 	min-height: 300px;
 	margin-top: 20px;
 }
+
+.contenedorde2{
+	padding-left: 250px;
+	padding-right: 250px;
+	min-height: 150px;
+}
+
+.caja1_2{
+	float:left;
+	position: relative;
+	width: 49%;
+	border: 1px solid #FAFAFA;
+	min-height: 300px;
+	margin-top: 20px;
+}
+
+.rojo{
+	color: white;
+	background-color: red;
+}
+
+
+.negro{
+	color: white;
+	background-color: black;
+}
