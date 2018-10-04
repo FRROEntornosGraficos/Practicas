@@ -1,0 +1,119 @@
+*{
+	margin:0px;
+}
+
+h1{color:red;}
+
+h2{color: blue;}
+
+a{
+	text-align: center;
+	padding: 10px;
+	margin: 3px;
+	font-family: inherit;
+}
+
+a[name="asdasd"]{
+
+}
+
+a:hover{
+	color:red;
+}
+
+a:visited{
+
+}
+
+a:active{
+
+}
+
+.azules{
+	background-color: blue !important;
+	/*margin: 5px;*/
+	margin-right:2px; 
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+
+	margin: 5px 3px 2px 0px;
+
+	padding: 5px;
+	border: 3px solid #56352e;
+	border-bottom: 1px;
+
+}
+
+.azules a{
+	color:grey;
+}
+
+
+a.azules{
+
+}
+
+.azules .verdes{
+
+}
+
+#negro{
+	background-color: black;
+}
+
+body {
+	font-family: "Gill Sans", sans-serif; 
+	font-size: 12pt;
+	margin: 3em; 
+	/*margin: 10px;*/
+} 
+
+/*
+Los textos enfatizados dentro de cualquier  título deben ser  rojos.*/
+h1 strong,h2 strong
+h1 b{color:red;}
+/*
+2.Cualquier elemento que tenga asignado el atributo "href" y que esté dentro de cualquier párrafo  que a su vez esté dentro de un bloque debe ser color negro.
+*/
+
+div p[href]{
+	color: #000; /* #FFF #DDD */
+}
+/*
+3. El texto de las listas no ordenadas que estén dentro del bloque identificado como “ultimo” debe ser amarillo pero si es un enlace a otra página debe ser azul.
+*/
+#ultimo ul{
+	color:yellow;
+}
+#ultimo ul a{
+	color:blue;
+}
+/*
+4.Los elementos  identificados como “importante” dentro de cualquier bloque deben ser verdes, pero  si están dentro de un título deben ser rojos.*/
+
+.importante{
+	color: green;
+}
+
+h1.importante,h2.importante,h3.importante{
+	color:red;
+}
+
+/*
+5. Todos los elementos h1 que especifiquen el atributo title, cualquiera que sea su valor, deben ser  azules.*/
+
+h1[title]{
+	color:blue;
+}
+
+/*
+6. El color de los enlaces en las listas ordenadas debe ser azul para los enlaces aún no visitados, y  violeta para los ya visitados y, además, no deben aparecer subrayados.*/
+ol a{
+	color:blue;
+}
+
+ol a:visited{
+	color:purple;
+	text-decoration: none;
+}
